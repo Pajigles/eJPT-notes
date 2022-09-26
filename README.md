@@ -56,5 +56,5 @@ Standard Gobuster scan used
 ### Wireshark
 ### smbclient
 ### enum4linux 
-### Jon the Ripper
+### John the Ripper
 
