@@ -32,13 +32,18 @@ Same as above but with UDP option
 Standard Gobuster scan used
 
 
-## Sqlmap
+## Sqlmap:
 ### ```sqlmap -u "http://<url>/" -D <database> --tables```
 ### ```sqlmap -u "http://<url>/" -D <database> -T <table> --columns```
 ### ```sqlmap -u "http://<url>/" -D <database> -T <table> --dump```
 
 
-## Other tools used
+## Other tools that I forgot to take notes on during the test:
 ### Metasploit
 ### Burpsuite
+### Wireshark
+### ```ftp <ip>```
+### enum4linux 
+### Hydra
+### Jon the Ripper
 
