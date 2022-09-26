@@ -1,4 +1,4 @@
-# eJPT-notes
+# eJPT notes
 Scripts and notes from eJPT certification 
 
 
