@@ -1,5 +1,5 @@
 # eJPT-notes
-Scripts and notes from taking eJPT certification 
+Scripts and notes from eJPT certification 
 
 
 ## Host discovery:
