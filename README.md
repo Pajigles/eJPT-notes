@@ -48,14 +48,26 @@ Standard Gobuster scan used
 ### ```Setup burp on browser: HTTP Proxy: 127.0.0.1	Port: 8080```
 
 
+## XSS
+### ```<script>alert(1)</script>```
+Checks for XSS
+
+
 ## ftp
 ### ```ftp <IP>```
 
 
+## SMB
+### ```smbclient -L //<IP> -N
+Checks for available shares
+
+### ```smbclient //<IP>/IPC$ -N 
+Connecting to a share
+
+### ```enum4linux -a <IP>111
+
 ## Other tools that I forgot to take notes on during the test:
 ### Metasploit
 ### Wireshark
-### smbclient
-### enum4linux 
 ### John the Ripper
 
