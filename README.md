@@ -58,13 +58,13 @@ Checks for XSS
 
 
 ## SMB
-### ```smbclient -L //<IP> -N
+### ```smbclient -L //<IP> -N```
 Checks for available shares
 
-### ```smbclient //<IP>/IPC$ -N 
+### ```smbclient //<IP>/IPC$ -N```
 Connecting to a share
 
-### ```enum4linux -a <IP>111
+### ```enum4linux -a <IP>111```
 
 ## Other tools that I forgot to take notes on during the test:
 ### Metasploit
