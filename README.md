@@ -45,10 +45,11 @@ Standard Gobuster scan used
 
 
 ## Burpsuite
-### ```Setup burp on browser. HTTP Proxy: 127.0.0.1	Port: 8080```
+### ```Setup burp on browser: HTTP Proxy: 127.0.0.1	Port: 8080```
 
 
-## ```ftp <ip>```
+## ftp
+### ```ftp <IP>```
 
 
 ## Other tools that I forgot to take notes on during the test:
